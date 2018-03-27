@@ -1,0 +1,21 @@
+{
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "**/*.{js}",
+    "!**/node_modules/**"
+  ],
+  "coverageDirectory": "<rootDir>/test/test_coverage/",
+  "coveragePathIgnorePatterns": [
+    "/node_modules/"
+  ],
+  "testPathIgnorePatterns": [
+    "/node_modules/"
+  ],
+  "transformIgnorePatterns": [
+    "/node_modules/"
+  ],
+  "roots": [
+    "src/"
+  ],
+  "testRegex": "(/__tests__/.*(test|spec)).jsx?$"
+}
